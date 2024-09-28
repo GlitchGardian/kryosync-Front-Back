@@ -59,10 +59,18 @@ body {
 }
 
 .pages {
-    height: 650px;
+    /* height: 650px; */
     display: flex;
     padding: 1%;
+    gap: 20px;
+    margin-top: 50px;
+    padding-block: 50px;
 }
+
+.home {
+    margin-top: 0;
+}
+
 
 .home-text {
     margin-top: 15%;
@@ -284,23 +292,24 @@ body {
     gap: 20px;
 }
 
-.career-name {
+.form-name {
     display: flex;
     gap: 20px;
 }
 
-.career-input {
-    width: 600px;
+.form-input {
+    max-width: 547px;
+    width: 100%;
     background-color: #18191B;
     border: none;
-    height: 50px;
+    height: 65px;
     border-radius: 10px;
     padding-inline: 20px;
     font-size: medium;
 }
 
 .career-select {
-    width: 640px;
+    width: 100%;
     background-color: #18191B;
     border: none;
     height: 50px;
@@ -320,7 +329,24 @@ body {
 }
 
 
-.career-btn {
+.form-btn {
     border-radius: 10px;
     margin-top: 10px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.contact-textarea {
+    padding: 20px;
+    height: 200px;
+}
+
+footer{
+    margin-top: 50px;
+    background-color: #18191B;
+    height: 400px;
 }

@@ -45,7 +45,7 @@
         </div>
 
         <!-- home page -->
-        <div class="pages">
+        <div class="pages home">
             <div class="home-text">
                 <p class="home-first-line">WELCOME TO THE WORLD OF SOFTWARE</p>
                 <p class="home-second-line">LET'S BUILD THE
@@ -120,10 +120,7 @@
             </div>
         </div>
 
-
-
         <!-- Services page -->
-
         <div class="pages vertical">
             <p class="page-heading">Our Services</p>
             <div class="carousel-container">
@@ -199,6 +196,20 @@
                         </p>
                     </div>
 
+                    <div class="card">
+                        <div class="card-imgs">
+                            <img src="../content/digital.png" alt="1" class="card-img">
+                        </div>
+                        <h2 class="card-heading">
+                            Content Writing
+                        </h2>
+                        <p class="card-description">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro minima, ullam rerum
+                            accusantium hic
+                            possimus! Lorem ipsum, dolor
+                        </p>
+                    </div>
+
                 </div>
                 <div class="slider">
 
@@ -272,8 +283,21 @@
                         </p>
                     </div>
 
+                    <div class="card">
+                        <div class="card-imgs">
+                            <img src="../content/digital.png" alt="1" class="card-img">
+                        </div>
+                        <h2 class="card-heading">
+                            Content Writing
+                        </h2>
+                        <p class="card-description">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro minima, ullam rerum
+                            accusantium hic
+                            possimus! Lorem ipsum, dolor
+                        </p>
+                    </div>
+
                 </div>
-             
             </div>
         </div>
 
@@ -337,37 +361,74 @@
             </div>
             <form action="/contect-us-form" method="post" class="c-form">
                 <div class="career-form">
-                    <div class="career-name">
-                        <input type="text" class="career-input" name="f_name" placeholder="First Name">
-                        <input type="text" class="career-input" name="l_name" placeholder="Last Name">
+                    <div class="form-name">
+                        <input type="text" class="form-input" name="f_name" placeholder="First Name">
+                        <input type="text" class="form-input" name="l_name" placeholder="Last Name">
                     </div>
-                    <input type="email" class="career-input" name="email" placeholder="Email Address">
-                    <input type="number" class="career-input" name="mobileNumber" placeholder="Mobile Number">
+                    <input type="email" class="form-input" name="email" placeholder="Email Address">
+                    <input type="number" class="form-input" name="mobileNumber" placeholder="Mobile Number">
                     <select class="career-select" name="domain" id="domain">
                         <option value="">Select Domain</option>
-                        <option value="">Web Development (Frontend)</option>
-                        <option value="">Web Development (Backend)</option>
-                        <option value="">App Development</option>
-                        <option value="">UI/UX Design</option>
-                        <option value="">cyber Security</option>
-                        <option value="">Data Analysis</option>
-                        <option value="">Digital Marketing</option>
-                        <option value=""></option>
+                        <option value="Web Development (Frontend)">Web Development (Frontend)</option>
+                        <option value="Web Development (Backend)">Web Development (Backend)</option>
+                        <option value="App Development">App Development</option>
+                        <option value="UI/UX Design">UI/UX Design</option>
+                        <option value="cyber Security">cyber Security</option>
+                        <option value="Data Analysis">Data Analysis</option>
+                        <option value="Digital Marketing">Digital Marketing</option>
+                        
                     </select>
-                    <textarea class="career-input career-textarea" name="About_person" id=""
+                    <textarea class="form-input career-textarea" name="About_person" id=""
                         placeholder="About You (Optional)"></textarea>
-                    <input type="submit" class="commun-btn career-btn" value="Send">
+                    <input type="submit" class="commun-btn form-btn" value="Send">
                 </div>
             </form>
         </div>
 
+        <!-- about us -->
+        <div class="pages">
+            <form action="/contect-us" method="post" class="c-form">
+                <div class="contact-form">
+                    <div class="form-name">
+                        <input type="text" class="form-input" name="contact_f_name" placeholder="First Name">
+                        <input type="text" class="form-input" name="contact_l_name" placeholder="Last Name">
+                    </div>
+                    <input type="email" class="form-input" name="contact_email" placeholder="Email Address">
+                    <textarea class="form-input contact-textarea" name="contact_message" id=""
+                        placeholder="Write Message Here..."></textarea>
+                    <input type="submit" class="commun-btn form-btn" value="Send">
+                </div>
+            </form>
+            <div class="commun-text direction">
+            <p class="commun-first-line">
+                got a project?
+            </p>
+            <p class="commun-second-line">
+                Let's Talk Business
+            </p>
+            <p class="commun-description">
+                Ready to take your project to the next level? Whether you need cutting-edge software solutions,
+                innovative digital strategies, or expert tech advice, our team at Kryosync is here to assist. We’re
+                dedicated to delivering solutions that drive your success.
+                <br><br>
+                Simply fill out the form below or email us at kryosyncc@gmail.com
+                —we’ll get back to you as soon as possible. Let’s discuss how we can turn your vision into reality!
+            </p>
+        </div>
+        </div>
 
     </div>
+    
+    <footer>
+    <div class="container"></div>
+    </footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
     <script src="../js/script.js"></script>
 
 </body>
+
+</html>
 
 </html>

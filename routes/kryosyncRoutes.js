@@ -1,8 +1,8 @@
 const express = require("express")
 const router = express.Router()
-const { homepage, contactUs, contactUshandler } = require("../controller/kryosync")
+const { homepage, contactUs, contactUshandler, careerHandler } = require("../controller/kryosync")
 
-router.post("/contect-us-form", contactUshandler())
+router.post("career-form", careerHandler())
 
 
 module.exports = router

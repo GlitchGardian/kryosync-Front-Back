@@ -3,6 +3,6 @@ const router = express.Router()
 const { homepage, contactUs } = require("../controller/kryosync")
 
 
-router.get("/home", homepage())
+router.get("/", homepage())
 
 module.exports = router

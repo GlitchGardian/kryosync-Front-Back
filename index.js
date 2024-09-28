@@ -19,8 +19,8 @@ app.use(express.urlencoded({ extended: true }))
 app.set("view engine", "ejs")
 
 
-app.use("/", kryosyncRoutes)
-app.use("/gui", staticRoutes)
+app.use("/", staticRoutes )
+app.use("/gui", kryosyncRoutes)
 
 app.listen(3000, (err) => {
     if (err)

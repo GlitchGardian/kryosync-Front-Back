@@ -6,7 +6,7 @@ function homepage() {
 }
 
 
-function contactUshandler() {
+function careerHandler() {
     return async (req, res) => {
         const { f_name,
             l_name,
@@ -27,5 +27,5 @@ function contactUshandler() {
 
 module.exports = {
     homepage,
-    contactUshandler,
+    careerHandler,
 }
