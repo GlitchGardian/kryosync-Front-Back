@@ -11,7 +11,6 @@
 
 <body>
     <div class="container">
-
         <!-- nav bar -->
         <div class="header">
             <div class="logo">
@@ -304,37 +303,73 @@
         <!-- Portfolio -->
         <div class="pages vertical">
             <p class="page-heading">Portfolio</p>
-            <div class="page-projects" id="page-projects">
-
-                <div class="project-card">
-                    <div class="project-card-heading">
-                        <h2>
-                            Web Development
-                        </h2>
-                    </div>
+            <div class="page-projects web" id="web">
+                <div class="project-card" style="background-image: url('/content/project/food_web.jpeg');">
+                    <h2 class="project-card-heading">
+                        Food Order
+                    </h2>
                 </div>
-
-                <div class="project-card">
-                    <div class="project-card-heading">
-                        <h2>
-                            Web Development
-                        </h2>
-                    </div>
+                <div class="project-card" style="background-image: url('/content/project/multi_web.jpeg');">
+                    <h2 class="project-card-heading">
+                        Multipurpose Hiring
+                    </h2>
                 </div>
-
-                <div class="project-card">
-                    <div class="project-card-heading">
-                        <h2>
-                            Web Development
-                        </h2>
-                    </div>
+                <div class="project-card" style="background-image: url('/content/project/shoping_web.jpeg');">
+                    <h2 class="project-card-heading">
+                        Shoping cart
+                    </h2>
                 </div>
-
+                <div class="project-card" style="background-image: url('/content/project/shyam_web.jpeg');">
+                    <h2 class="project-card-heading">
+                        Shyam Earth Mover
+                    </h2>
+                </div>
+                <div class="project-card" style="background-image: url('/content/project/tulsi_web.jpeg');">
+                    <h2 class="project-card-heading">
+                        Tulsi resuturant
+                    </h2>
+                </div>
+            </div>
+            <div class="page-projects app" id="app">
+                <div class="project-card" style="background-image: url('/content/project/agry_app.jpg');">
+                    <h2 class="project-card-heading">
+                        Agry Help 
+                    </h2>
+                </div>
+                <div class="project-card" style="background-image: url('/content/project/mobile_app.PNG');">
+                    <h2 class="project-card-heading">
+                        Mobile Mart
+                    </h2>
+                </div>
+                <div class="project-card" style="background-image: url('/content/project/food_app.jpeg');">
+                    <h2 class="project-card-heading">
+                        Food Ordering System
+                    </h2>
+                </div>
+            </div>
+            <div class="page-projects ui" id="ui">
+             
+                <div class="project-card" style="background-image: url('/content/project/car_ui.jpeg');">
+                    <h2 class="project-card-heading">
+                        Carvilla
+                    </h2>
+                </div>
+             
+                <div class="project-card" style="background-image: url('/content/project/shoping_ui.jpeg');">
+                    <h2 class="project-card-heading">
+                        E-Commerce 
+                    </h2>
+                </div>
+                <div class="project-card" style="background-image: url('/content/project/tulsi_ui.jpeg');">
+                    <h2 class="project-card-heading">
+                        Tulsi resuturant
+                    </h2>
+                </div>
             </div>
             <div class="page-project-topics">
-                <p class="page-project-topic" id="topic-web" onclick="changeProject('topic-web')">Web Development</p>
-                <p class="page-project-topic" id="topic-app" onclick="changeProject('topic-app')">App Development</p>
-                <p class="page-project-topic" id="topic-ui/ux" onclick="changeProject('topic-ui/ux')">UI/UX Design</p>
+                <p class="topic-slected topic" id="web-topic" onclick="changeProject('web')"> Web Development </p>
+                <p class="topic" id="app-topic" onclick="changeProject('app')">App Development</p>
+                <p class="topic" id="ui-topic" onclick="changeProject('ui')">UI/UX Design</p>
             </div>
         </div>
 
@@ -416,9 +451,10 @@
                 </p>
             </div>
         </div>
-
+    </div>
         <!-- footer -->
         <footer>
+             <div class="container">
             <div class="footer">
                 <div class="footer-data">
                     <div class="footer-logo">
@@ -485,8 +521,8 @@
             </div>
             <hr class="footer-hr">
             <p class="copyrights">Copyright © 2024 Kryosync</p>
+        </div>
         </footer>
-    </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>

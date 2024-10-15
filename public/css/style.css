@@ -58,7 +58,6 @@ a {
 }
 
 .pages {
-  /* height: 650px; */
   display: flex;
   padding: 1%;
   gap: 20px;
@@ -238,7 +237,7 @@ a {
 }
 
 .page-projects {
-  height: 400px;
+  height: 450px;
   justify-content: center;
   display: grid;
   grid-template-columns: auto auto auto;
@@ -246,25 +245,38 @@ a {
   column-gap: 50px;
 }
 
+.web{
+  display: grid;
+}
+
+.app, .ui{
+  display: none;
+}
+
 .project-card {
   width: 320px;
   height: 200px;
   background-color: #18191b;
-  border-radius: 10px;
+  border-radius: 4px;
   display: flex;
   flex-direction: column;
   justify-content: end;
   align-items: center;
-  background-image: url("/content/background.png");
+  background-size: contain;
+  background-position-y: top;
+  background-position-x:center;
+  background-repeat: no-repeat;
+  box-shadow: #00000059 0px 7px 15px;
 }
+
 
 .project-card-heading {
   margin: 0;
   padding-block: 5px;
   width: 100%;
-  background-color: rgba(7, 23, 36, 0.283);
+  background-color: #18191b;
   text-align: center;
-  border-radius: 0px 0px 10px 10px;
+  border-radius: 0px 0px 3px 3px;
 }
 
 .page-project-topics {
@@ -272,6 +284,16 @@ a {
   gap: 50px;
   justify-content: center;
   font-size: 120%;
+}
+
+.topic{
+  padding-inline: 5px;
+  cursor: pointer;
+}
+
+.topic-slected{
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.144));
+  border-bottom: 2px solid rgb(255, 255, 255);
 }
 
 .c-form {
